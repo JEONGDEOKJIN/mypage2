@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 공부 리스트 </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+
+        * {
+            font-family: 'Hahmlet', serif;
+        }
+
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 14px;
+            border-radius: 8px;
+            < !-- padding: '여백' 을 얼마나 줄 거냐 / 첫 인자=위아래 / 2nd인자: 양옆 여백-->
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+
+
+</head>
+
+<body class="bg-t3 center">
+    <h1 class=" title-t4 "> 2023 완성시킬 프로젝트 🙌 </h1>
+    <p class="msg"> 완성 시켜서, 취업, 가자. 👌 </p> <!-- 이름표를 message 로 붙임-->
+
+    <div class="row flex-row wrap"> <!-- 아래에 있는 박스들을 묶기 위한 큰 box -> 한줄로 묶는다! 는 의미에서 row-->
+        <div class="bucket img1-t2 center done "> [게임엔진] Unity + MLAgent</div>
+        <div class="bucket img2 center"> [게임엔진] Unity or 언리얼 + 디지털트윈</div>
+        <div class="bucket img2 center"> [AI](상반기) 머신러닝 프레임워크 능숙 </div>
+        <div class="bucket img1-t4 center"> [AI](하반기) 딥러닝 + 디지털 트윈 프로젝트 </div>
+        <div class="bucket img1 center"> [웹] 웹으로 만들고 싶은 프로젝트 </div>
+        <div class="bucket img2-t5 center"> [웹] 웹 + 메타버스 프로젝트 </div>
+        <!-- img1, 과 img2 를 번걸아 붙여서 -> 다른 색상을 적용할 수 있음. -->
+    </div>
+</body>
+
+</html>
